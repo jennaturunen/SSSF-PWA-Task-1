@@ -1,0 +1,37 @@
+body {
+  font-family: robotoregular;
+}
+
+/* Make content area fill the entire browser window */
+html,
+.fullscreen {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url('../images/pwa.png');
+}
+
+/* Center the content in the browser window */
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.wifi-icon {
+  width: 3rem;
+  height: 3rem;
+  display: block;
+  background-image: url('../images/wifi-solid.svg');
+  border: 3px solid green;
+}
+
+.red-text {
+  color: red;
+  font-weight: bold;
+}
